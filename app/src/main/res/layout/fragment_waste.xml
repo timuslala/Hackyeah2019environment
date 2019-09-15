@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@android:style/TextAppearance.DeviceDefault.Medium">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:shrinkColumns="0">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/Ecology1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="24dp"
+                android:text="This page will tell you how to properly segregate waste in Poland? It may differ dramatically from your native country. In Poland we segregate beetween 4 categories. Plastic+metal, paper,  glass, biowaste. Colours are respectivly yellow, blue,  dark green, brown."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </TableRow>
+
+        />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/Ecology2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="10dp"
+                android:text="Seems easy. Huh? It's not. Do not throw out medicine boxes, paint packaging and plastic toys  into yellow bin. You are allowed to throw out: metals, plastic bottles, plastic packaging, milk/juice cartoons, tin cans, aluminium foil. "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/Ecology3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="10dp"
+                android:text="Dark green bins are for glass. You can use them to dispose jars, glass bottles and  glass packaging for cosmetics. You are not allowed to use them for any kind of ceramic, heat resistant glass, lenses, candles that are not completly clean out of wax, lightbulbes, windows and mirrors."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Ecology4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="10dp"
+                android:text="Paper is the easy one. Remember you can only throw out clean paper. It's prohibited to use blue bins if paper is greasy. You cannot throw out  used tissues, paper towels, or paper cement bags. "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Ecology5"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="10dp"
+                android:text="Last and final one is brown. It's used for biowaste, it's okay to use it to get rid of vegetable/fruit peels, leftovers, small branches, cut grass/leaves/flowers, sawdust and tree bark. It's not allowed to use bin of this colour to dispose soil, rocks, dust, impregnated wood, bones and excrement"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
